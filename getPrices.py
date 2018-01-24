@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Jan 23 14:47:23 2018
-
-@author: henrique.almeida
-"""
 
 import urllib, json
 import time,datetime
