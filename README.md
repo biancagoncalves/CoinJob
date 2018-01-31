@@ -28,14 +28,21 @@ Com o banco de dados online, uma tabela foi criada para os dados da exchange esc
 
 Estando o banco online, não há necessidade de recriar o storage toda vez que o script for rodado em um ambiente novo. 
 
-  - **`src/capturador.py`**: possui uma função chamada **`salva_banquinho`** que armazena os dados extraídos do capturador. Argumentos:
-  
+  - **`src/capturador.py`**: possui uma função chamada **`save`** que armazena os dados extraídos do capturador e uma função chamada **`get`** que puxa os dados do banco. 
+  - Argumentos da função **`save`**
+    
     - **`data1`**: objeto com os dados da moeda
     - **`symbol`**: Tipo de moeda que se deseja obter os valores
+    
+  - Argumentos da função **`get`**
+    - **`symbol`**: Tipo de moeda que se deseja obter os valores
+    - **`datainicio`**: Data inicial (Não necessário)
+    - **`datafim`**: Data final (Não necessário)
 
 
 #### 3 - Visualização dos dados a partir do banco. 
-
+  
+A visualização está contida em `notebooks/visualizacao.ipynb
 
 
 ##### Dependências para rodar os códigos
