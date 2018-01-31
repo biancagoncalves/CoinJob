@@ -42,7 +42,7 @@ Estando o banco online, não há necessidade de recriar o storage toda vez que o
 
 #### 3 - Visualização dos dados a partir do banco. 
   
-A visualização está contida em `notebooks/visualizacao.ipynb
+A visualização está contida em **`notebooks/visualizacao.ipynb`**
 
 
 ##### Dependências para rodar os códigos
