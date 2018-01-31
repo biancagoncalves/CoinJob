@@ -45,6 +45,10 @@ Estando o banco online, não há necessidade de recriar o storage toda vez que o
 A visualização está contida em **`notebooks/visualizacao.ipynb`**
 
 
+A uma função chamada **`mercados`** que verifica se as moedas escolhidas possuem dados disponíveis através da ccxt para a exchange escolhida. Nesse trabalho, no caso, é a Allcoin. Os parâmetros:
+  - **`exch`**: exchange escolhida
+  - **`moedas`**: por exemplo, ['ETH','LTC','BTG']
+
 ##### Algumas Dependências para rodar os códigos
 
   - bokeh
