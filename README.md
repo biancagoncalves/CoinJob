@@ -45,7 +45,7 @@ Estando o banco online, não há necessidade de recriar o storage toda vez que o
 A visualização está contida em **`notebooks/visualizacao.ipynb`**
 
 
-##### Dependências para rodar os códigos
+##### Algumas Dependências para rodar os códigos
 
   - bokeh
   - numpy
@@ -53,4 +53,5 @@ A visualização está contida em **`notebooks/visualizacao.ipynb`**
   - pandas
   - requests
   - mysql.connector
+  - plotly
 
