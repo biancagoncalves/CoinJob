@@ -15,7 +15,7 @@
        
 Escolhida a exchange **`Allcoin`**, os dados são obtidos através da biblioteca **`ccxt`**
 
-  - **`src/capturador.py`**: possui uma classe chamada **`capturador`** que exectua a extração baseada nos seguintes argumentos: 
+  - **`src/capturador.py`**: possui uma classe chamada **`capturador`** que executa a extração baseada nos seguintes argumentos: 
    
     - **`max_dias`**: Quanditade de dias até a data atual
     - **`symbol`**: Tipo de moeda que se deseja obter os valores
@@ -24,7 +24,7 @@ Escolhida a exchange **`Allcoin`**, os dados são obtidos através da biblioteca
 
 #### 2 -  Banco de dados (MySQL) 
 
-Com o banco de dados online, uma tabela foi criada para os dados da exchange escolhida. Com uma chave primária composta (date e mercado). É possível armazenar em um unico lugar, dados de diferentes moedas e time frames sem duplicatas. 
+Com o banco de dados online, uma tabela foi criada para os dados da exchange escolhida. Com uma chave primária composta (date e mercado). É possível armazenar em um único lugar, dados de diferentes moedas e time frames sem duplicatas. 
 
 Estando o banco online, não há necessidade de recriar o storage toda vez que o script for rodado em um ambiente novo. 
 
@@ -34,7 +34,7 @@ Estando o banco online, não há necessidade de recriar o storage toda vez que o
     - **`symbol`**: Tipo de moeda que se deseja obter os valores
 
 
-#### 3 - Visualização dos dados apartir do banco. 
+#### 3 - Visualização dos dados a partir do banco. 
 
 
 
