@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Jan 30 11:58:57 2018
-
 """
  
 import urllib, json
@@ -11,14 +10,6 @@ import ccxt
 import numpy as np
 import mysql.connector
  
-def salva_banquinho(data1,symbol):
-            conn = mysql.connector.connect(user='henriqu2_bianca', password='verao2018',
-            host='77.104.156.92',database='henriqu2_storageCoin')
-            cursor = conn.cursor()
-            for i in range(len(data1.datetime)):    
-                cursor.execute('insert into Allcoin(date,timestamp,open,high,close,low,volume,mercado) values("'+str(data1.datetime[i]) +'",'+str(data1.timestamp[i]) + ','+str(data1.open[i]) + ',' +str(data1.high[i]) + ',' + str(data1.close[i]) + ',' + str(data1.low[i]) + ',' +str(data1.volume[i]) + ',"' + str(symbol) + '")')
-            conn.commit()
-    
 
 
 def mercados(exch = 'allcoin',moedas = ['ETH','LTC','BTG']):
