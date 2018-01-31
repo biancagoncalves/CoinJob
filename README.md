@@ -1,5 +1,5 @@
 # CryptoMarketAnalysis  ![](https://www.allcoin.com/Content/image/allcoin_logo02.png)
-## Trabalho do curso de Verão 2018 
+## Trabalho do curso de Verão 2018 - FGV
 
   - Autor: Bianca Gonçalves
   - Professor: Renato Rocha e Flavio Coelho
