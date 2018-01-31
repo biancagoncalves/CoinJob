@@ -1,0 +1,11 @@
+#btg = capturador(360,'BTG/BTC','1d')
+#eth = capturador(360,'ETH/BTC','1d')
+#bcd = capturador(360,'BCD/BTC','1d')
+
+#df1 = btg.get_allcoin_captura()
+#df2 = eth.get_allcoin_captura()
+#df3 = bcd.get_allcoin_captura()
+
+#salva_banquinho(df1,'BTG/BTC')
+#salva_banquinho(df2,'ETH/BTC')
+#salva_banquinho(df3,'BCD/BTC')
