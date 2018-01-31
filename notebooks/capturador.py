@@ -2,7 +2,6 @@
 """
 Created on Tue Jan 30 11:58:57 2018
 
-@author: jonatha.costa
 """
  
 import urllib, json
